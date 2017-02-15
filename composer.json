@@ -29,6 +29,9 @@
     "autoload": {
         "psr-4": { "FOS\\JsRoutingBundle\\": "" }
     },
+    "replace": {
+        "friendsofsymfony/jsrouting-bundle": "~1.6|~2.0"
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "2.0-dev"
